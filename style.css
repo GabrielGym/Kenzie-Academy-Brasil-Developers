@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.corpo{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 246, 234, 0.236);
+
+}
+
+.pricipal {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner {
+    max-width: 70%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.divisoes {}
+
+.h1title {
+    margin-bottom: 50px;
+    color: blue;
+}
+
+.paragrafo {
+    margin-bottom: 20px;
+}
+
+.linkPost {
+    color: blue;
+    list-style: none;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.linkPost:hover {
+    background-color: rgba(0, 246, 234, 0.236);
+    
+    
+}
+
+.h2title {
+    margin-bottom: 30px;
+
+}
+
+.listaNaoOrdenada {
+    margin-right: 310px;
+    list-style: none;
+}
+
+.listaOrdenada {}
+
+
+.lista {}
+
+.divisoesLista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 240px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    
+}
+
+.button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 3px 10px;
+}
