@@ -11,7 +11,7 @@
 }
 
 .pricipal {
-    max-width: 90%;
+    max-width: 1130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,10 @@
     padding: 10px 50px;
 }
 
-.divisoes {}
+.divisoes {
+    margin: 40px 0;
+    padding: 0 40px;
+}
 
 .h1title {
     margin-bottom: 50px;
@@ -70,6 +73,14 @@
     justify-content: space-between;
 }
 
+.formulario{
+    margin: 10px 0;
+    padding: 10px 178px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(0, 238, 255);
+}
+
 .input {
     width: 240px;
     border-radius: 5px;
@@ -78,8 +89,10 @@
 }
 
 .button{
-    background-color: rgba(0, 0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
     padding: 3px 10px;
+}
+.button:hover {
+    background-color: aquamarine;
 }
